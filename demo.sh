@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='0' python main.py --harmonize_iterations 10 --save_dir "./output" --images_root "./demo/style_composite" --mask_path "./demo/mask" --caption_txt "./demo/caption.txt" --pretrained_diffusion_path "stabilityai/stable-diffusion-2-base" --use_edge_map
